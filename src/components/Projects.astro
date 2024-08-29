@@ -5,6 +5,7 @@ import HTML from "./icons/HTML.astro";
 import PHP from "./icons/PHP.astro";
 import JS from "./icons/JS.astro";
 import MySQL from "./icons/MySQL.astro";
+import REACT from "./icons/React.astro";
 
 const TAGS = {
   HTML: {
@@ -26,6 +27,11 @@ const TAGS = {
     name: "MySQL",
     class: "bg-[#e2cf51] text-white",
     icon: MySQL,
+  },
+  REACT: {
+    name: "REACT",
+    class: "bg-[#e2cf51] text-white",
+    icon: REACT,
   },
 };
 const PROJECTS = [
@@ -52,6 +58,14 @@ const PROJECTS = [
     github: "https://github.com/JoHurt77/Snake-Game",
     image: "/projects/snake.webp",
     tags: [TAGS.JS],
+  },
+  {
+    title: "Human Anatomy",
+    description:
+      "Proyecto hecho con React, contiene de manera dinámica una descripción de cada parte del cuerpo humano. ",
+    github: "https://github.com/JoHurt77/Anatomia-Humana-React",
+    image: "/projects/human_anatomy.webp",
+    tags: [TAGS.REACT],
   },
 ];
 ---
